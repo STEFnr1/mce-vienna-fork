@@ -31,7 +31,7 @@ public final class SigninRouter extends Router
 					}
 
 					String userId = parts[0];
-					if (!userId.matches("^[0-9A-F]{16}$"))
+					if (!userId.matches("^[0-9A-F]{15}$"))
 					{
 						return Response.badRequest();
 					}
