@@ -87,7 +87,7 @@ public class ChallengesRouter extends Router
 							))
 							.getMap()
 					)
-					.put("activeSeasonChallenge", "00000000-0000-0000-0000-000000000000")
+					.put("activeSeasonChallenge", "00000000-0000-0000-0000-000000000001")
 					.getMap()
 			), EarthApiResponse.class);
 		});
